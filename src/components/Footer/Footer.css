@@ -1,0 +1,95 @@
+.footer{
+    width: 100%;
+    height: 12em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #dee2e6;
+    font-family: 'Exo 2', sans-serif;
+}
+/* modo oscuro */
+.footerOscuro{
+    background-color: #000000;
+}
+
+.container__creador{
+    display: flex;
+    font-weight: bold;
+    position: relative;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.icon-creador{
+    position: absolute;
+    top: 37px;
+    left: -32px;
+}
+/* modo oscuro */
+.creadorTToscuro{
+    color: #dee2e6;
+}
+.icon-creadorOscuro{
+    color: #dee2e6;
+}
+
+
+.icon1{
+    margin-right: 5px;
+    transition: all ease-in-out .25s;
+    color: #000;
+}
+
+
+.icon1:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+/* modo oscuro */
+.iconOscuro{
+    color: #dee2e6;
+}
+
+.container__links{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.spann{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hrr{
+    border-top: 1px solid #000;
+}
+
+/* responsive */
+@media screen and (100px <= width <= 767px){
+    .container__creador{
+        font-size: 15px;
+        padding-left: 15px;
+    }
+    .icon-creador{
+        width: 22px;
+        top: 5px;
+        left: -10px;
+    }
+    .creadorTT{
+        font-size: 15px;
+    }
+}
+
+@media screen and (768px <= width <= 1023px){
+    .creadorTT{
+        font-size: 25px;
+    }
+    .icon-creador{
+        width: 28px;
+        top: 20px;
+        left: -30px;
+    }
+}
