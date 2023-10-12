@@ -34,7 +34,7 @@ export const Seccion = () =>{
         <div className={`seccion ${darkMode ? 'seccion' : 'seccion-clara'}`}>
 
             <div className={`img__container ${darkMode ? 'img__container' : 'img__container-clara'}`}>
-                <img className={`foto ${darkMode ? 'foto' : 'foto-clara'}`} src="../../../public/mi foto.jpeg" alt="Mi foto" />
+                <img className={`foto ${darkMode ? 'foto' : 'foto-clara'}`} src="mi foto.jpeg" alt="Mi foto" />
                 <h3>(Junior) Front-End</h3>
             </div>
 
@@ -120,7 +120,7 @@ export const Seccion = () =>{
 
                         <div className="img-card">
                             <h3>Encriptador de texto</h3>
-                            <img src="../../../public/encriptador.png" alt="encriptador" className="img-proyectos"/>
+                            <img src="encriptador.png" alt="encriptador" className="img-proyectos"/>
                             <div className={`link-p ${darkMode ? 'link-p' : 'link-p-clara'}`}>
                                 <a className={`proyectos_link ${darkMode ? 'proyectos_link' : 'proyectos_link-clara'}`} href="https://github.com/wascarbonifacio/encriptador" target="blank">Ver proyecto</a>
                                 <button onClick={handdleChange}>Ver tecnologias</button>
@@ -140,7 +140,7 @@ export const Seccion = () =>{
 
                         <div className="img-card">
                             <h3>E-commerce (Wf Autozone)</h3>
-                            <img src="../../../public/Desktop Screenshot 2023.10.10 - 14.25.39.75.png" alt="encriptador" className="img-proyectos"/>
+                            <img src="Desktop Screenshot 2023.10.10 - 14.25.39.75.png" alt="encriptador" className="img-proyectos"/>
                             <div className={`link-p ${darkMode ? 'link-p' : 'link-p-clara'}`}>
                                 <a className={`proyectos_link ${darkMode ? 'proyectos_link' : 'proyectos_link-clara'}`} href="https://github.com/wascarbonifacio/WfautoZone-v0.5" target="blank">Ver proyecto</a>
                                 <button onClick={handdleChange2}>Ver tecnologias</button>
