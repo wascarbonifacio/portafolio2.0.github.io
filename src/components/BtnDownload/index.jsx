@@ -1,5 +1,6 @@
 import "./BtnDownload.css"
 import { useTheme } from "../../../ThemeContext"
+import WascarFloresCVVspanish from '../../../dist/WascarFloresCVVspanish.pdf'
 
 export const BtnDownload = () => {
 
@@ -7,12 +8,12 @@ export const BtnDownload = () => {
 
     const handleDownload = () => {
         
-        const pdfUrl = '../../../public/Wascar Flores CVV22 spanish.pdf';
+        const pdfUrl = WascarFloresCVVspanish;
         
         const link = document.createElement('a');
         link.href = pdfUrl;
         link.target = '_blank';
-        link.download = 'Wascar Flores CVV2 spanish.pdf';
+        link.download = 'Wascar Flores CVV spanish.pdf';
         link.click();
       };
 
